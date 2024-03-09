@@ -91,9 +91,9 @@ p {
 }
 
 button {
-    background-color: #333;
+    background-color: #adffff;
     border: none;
-    color: white;
+    color: #333;
     padding: 10px 20px;
     text-transform: uppercase;
     cursor: pointer;
