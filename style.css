@@ -304,3 +304,19 @@ animation-duration: 2s;
     
 
 } 
+
+
+
+
+.container {
+  width: 200px; /* Set the width of the container */
+height: 200px; /* Set the height of the container */
+overflow: hidden; /* Hide any overflow */
+ text-align: center; /* Center the content */
+}
+
+.container img {
+  width: 100%; /* Set the image width to 100% of the container width */
+height: 100%; /* Scale the height of the image proportionally */
+ text-align:  center; /* Center the image */
+} 
