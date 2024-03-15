@@ -320,3 +320,24 @@ overflow: hidden; /* Hide any overflow */
 height: 100%; /* Scale the height of the image proportionally */
  text-align:  center; /* Center the image */
 } 
+
+
+
+
+
+/* footer section styling */
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+
+footer span a {
+  color: crimson;
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
