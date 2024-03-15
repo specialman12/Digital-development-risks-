@@ -331,13 +331,31 @@ footer {
   padding: 15px 23px;
   color: #fff;
   text-align: center;
+  amination-name:no;
+  amimation-duration:2s;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 footer span a {
   color: crimson;
   text-decoration: none;
+  amination-name:no;
+  amimation-duration:2s;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 footer span a:hover {
   text-decoration: underline;
+  amination-name:no;
+  amimation-duration:2s;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
