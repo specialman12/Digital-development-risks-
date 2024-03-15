@@ -327,9 +327,9 @@ height: 100%; /* Scale the height of the image proportionally */
 
 /* footer section styling */
 footer {
-  background: cyan;
+  background: #adffff;
   padding: 15px 23px;
-  color: #fff;
+  color: crimson;
   text-align: center;
   amination-name:no;
   amimation-duration:2s;
