@@ -327,14 +327,14 @@ height: 100%; /* Scale the height of the image proportionally */
 
 /* footer section styling */
 footer {
-  background: #111;
+  background: cyan;
   padding: 15px 23px;
   color: #fff;
   text-align: center;
 }
 
 footer span a {
-  color: cyan;
+  color: crimson;
   text-decoration: none;
 }
 
