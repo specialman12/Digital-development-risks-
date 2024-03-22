@@ -124,10 +124,15 @@ form textarea {
 }
 
 footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
+    background-color: #adffff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
 }
 
 @media (max-width: 768px) {
