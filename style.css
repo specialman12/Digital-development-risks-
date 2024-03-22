@@ -124,16 +124,21 @@ form textarea {
 }
 
 footer {
-    background-color: #adffff;
-    color: black;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
 }
 
-footer p {
-    margin: 0;
+footer span a {
+  color: crimson;
+  text-decoration: none;
 }
+
+footer span a:hover {
+  text-decoration: underline;
+}
+
 
 @media (max-width: 768px) {
     header {
@@ -341,3 +346,4 @@ height: 100%; /* Scale the height of the image proportionally */
   }
 } 
     
+
