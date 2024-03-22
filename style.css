@@ -1,4 +1,4 @@
-html {
+html  {
   height: 100%;
   width: 100%;
 }
@@ -124,21 +124,11 @@ form textarea {
 }
 
 footer {
-  background: #111;
-  padding: 15px 23px;
-  color: #fff;
+  background-color: #777;
+  padding: 10px;
   text-align: center;
+  color: white;
 }
-
-footer span a {
-  color: crimson;
-  text-decoration: none;
-}
-
-footer span a:hover {
-  text-decoration: underline;
-}
-
 
 @media (max-width: 768px) {
     header {
