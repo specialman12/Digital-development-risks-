@@ -1,49 +1,111 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+    <title>  </title>
+
+    <link rel="stylesheet" href="style.css">    
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Harmattan:wght@400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Harmattan:wght@400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lemonada:wght@300..700&family=Noto+Kufi+Arabic:wght@100..900&family=Satisfy&display=swap" rel="stylesheet">
 </head>
-  <body>
-    <header>
-        <nav>
-            <ul>
 
-<li><a href="index.html">Home</a></li>
-<li><a href="s1.html">مسوء التطوير الرقمي </a></li>
-<li><a href="s2.html">ايجابيات التطوير الرقمي</a></li>
- <li><a href= "s3.html"> اهداف التطوير الرقمي</a></li>
-<!---<li><a href="chatbot.html">Ai Chat</a></li>--->  
-<li><a href="https://drive.google.com/file/d/17sZRNEA3PRRu_3E68gM57hx1tSqAa8Xv/view?usp=drivesdk" target="_blank" type="application/pdf">Ashradat Specialize in us </a></li> 
-<li><a href="https://specialman12.github.io/mostafa-fahmi-/">Project developer </a></li>      
+<body>
+
+    <nav>
+
+        <div class="logo">
+
+            <h1>Digital Development Risks</h1>
+
+        </div>
+
+        <ul id="menuList">
+
+            <li><a href="index.html">Home</a></li>
           
-            </ul>
-        </nav>
-    </header>
+<li><a href="s1.html">مخاطر التطوير </a></li>
 
-              
+  <li><a href="s2.html">اهداف التطوير   </a></li>
+          
+  <li><a href="s3.html">اجبيات التطوير </a></li>
+          
+  <li><a href="https://drive.google.com/file/d/17sZRNEA3PRRu_3E68gM57hx1tSqAa8Xv/view?usp=drivesdk">Guidance</a></li>
+        
 
-<script SameSite="None; Secure" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
-<div id="myLandbot" style="width: 100%; height: 500px"></div>
-<script>
-  var myLandbot = new Landbot.Container({
-    container: '#myLandbot',
-    configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2146638-VK74AHNZV0XOOZPR/index.json',
-  });
-</script>
-    <footer>
-    <span>Copyright © <script>
-        document.write(new Date().getFullYear());
-      </script> All rights reserved By <i class="fa fa-heart"></i> <a href="https://www.facebook.com/darsh.fahmi?mibextid=ZbWKwL">Mostafa&RHama Kamal </a></p>
-  </footer>
+    <li><a href="https://specialman12.github.io/mostafa-fahmi-/">developer</a></li>
+  
+        </ul>
 
-  </body>
+        <div class="menu-icon">
+
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+        </div>
+
+    </nav>
+
+
+
+
+
+    <script>
+
+        let menuList = document.getElementById("menuList")
+
+        menuList.style.maxHeight = "0px";
+
+
+
+        function toggleMenu(){
+
+            if(menuList.style.maxHeight == "0px")
+
+            {
+
+                menuList.style.maxHeight = "300px";
+
+            }
+
+            else{
+
+                menuList.style.maxHeight = "0px";
+
+            }
+
+        }
+
+        
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+
+
+
+
+  <script SameSite="None; Secure" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+  <div id="myLandbot" style="width: 100%; height: 700px"></div>
+  <script>
+    var myLandbot = new Landbot.Container({
+      container: '#myLandbot',
+      configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2146638-VK74AHNZV0XOOZPR/index.json',
+    });
+  </script>
+
+  <footer>
+ <a herf="https://www.instagram.com/darsh_f10?igsh=MTFpcGxubzgwbnVjbg%3D%3D&utm_source=qr">
+    <p>&copy; The developer:Mostafa Mohamed Fahmi </p>
+   </footer>
+ </a>
+</body>
+
 </html>

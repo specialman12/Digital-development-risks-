@@ -1,42 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Harmattan:wght@400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-  <body>
-        <header>
-        <nav>
-            <ul>
-  <li><a href="index.html">Home</a></li>
-              
-<li><a href="s1.html">مخاطر التطوير الرقمي </a></li>
-              
-<li><a href="s2.html">ايجابيات التطوير الرقمي</a></li>
-              
- <li><a href= "s3.html"> اهداف التطوير الرقمي</a></li>
 
-              <li><a href= "chatbot.html">Ai Chat </a></li>
-   <li><a href="https://drive.google.com/file/d/17sZRNEA3PRRu_3E68gM57hx1tSqAa8Xv/view?usp=drivesdk" target="_blank" type="application/pdf">Ashradat Specialize in us </a></li> 
-<li><a href="https://specialman12.github.io/mostafa-fahmi-/">Project developer </a></li>
-<!--<li><a href="pdf.html">test</a></li>--> 
-            </ul>
-        </nav>
-    </header>
-    <main>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>welcome</title>
+
+    <link rel="stylesheet" href="style.css">    
+
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Harmattan:wght@400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lemonada:wght@300..700&family=Noto+Kufi+Arabic&family=Satisfy&display=swap')
+
+
+
+</style>
+<body>
+
+    <nav>
+
+        <div class="logo">
+
+            <h1>Digital development risks </h1>
+
+        </div>
+
+        <ul id="menuList">
+
+            
+            <li><a href="s1.html">مخاطر التطوير </a></li>
+
+            <li><a href="s2.html">اهداف التطوير </a></li>
+
+            <li><a href="s3.html">اجبيات التطوير </a></li>
+
+            <li><a href="chatbot.html">Ai chat</a></li>
+
+            <li><a href="https://drive.google.com/file/d/17sZRNEA3PRRu_3E68gM57hx1tSqAa8Xv/view?usp=drivesdk">Guidance</a></li>
+        
+
+    <li><a href="https://specialman12.github.io/mostafa-fahmi-/">developer</a></li>
+        </ul>
+        <div class="menu-icon">
+
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+        </div>
+
+    </nav>
+
+
         <section id="home">
 
-        
-            <h1>اهلا بك معنا ❤</h1> <div class="typing"></span></div>
+
+            <h3>اهلا بك معنا ❤</h3> 
 
             <p>مرحبًا بك في موقعنا الجديد!
 
@@ -49,41 +70,45 @@
 مرحبًا بك مرة أخرى، ونتمنى لك تجربة رائعة وممتعة على موقعنا.
 
 مع أطيب التحيات،
-فريق الموقع</p>
-         </section>
-    
-       
-          <!---  <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>--->
-  </section> 
+فريق الموقع</p>       
 
-  <footer>
-    <span>Copyright © <script>
-        document.write(new Date().getFullYear());
-      </script> All rights reserved By <i class="fa fa-heart"></i> <a href="https://www.facebook.com/darsh.fahmi?mibextid=ZbWKwL">Mostafa</a></p>
-  </footer>
-       
-         
+        </section>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-    
-  </body>
+<img src="t4.jpg" alt="HTML5 Icon" style="width:350px;height:200px;">
+    <script>
+
+        let menuList = document.getElementById("menuList")
+
+        menuList.style.maxHeight = "0px";
+
+
+
+        function toggleMenu(){
+
+            if(menuList.style.maxHeight == "0px")
+
+            {
+
+                menuList.style.maxHeight = "300px";
+
+            }
+
+            else{
+
+                menuList.style.maxHeight = "0px";
+
+            }
+
+        }
+
+        
+
+    </script>
+<footer>
+  <a herf="https://www.instagram.com/darsh_f10?igsh=MTFpcGxubzgwbnVjbg%3D%3D&utm_source=qr"> &copy; The developer:Mostafa Mohamed Fahmi</a>
+</footer>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+</body>
+
 </html>

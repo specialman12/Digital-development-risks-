@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening a Website Example</title>
+</head>
+<body>
+    <h1>Opening a Website Example</h1>
+    <button id="openSite">Open Another Website</button>
+
+    <script>
+        // Select the button and add a click event listener to it
+        const openBtn = document.getElementById('openSite');
+        openBtn.addEventListener('click', () => {
+            // Open the website in a new tab or window
+            const anotherWebsite = 'https://specialman12.github.io/mostafa-fahmi-/';
+            window.open(anotherWebsite, '_blank').focus();
+        });
+    </script>
+</body>
+</html>
